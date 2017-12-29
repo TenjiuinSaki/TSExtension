@@ -105,7 +105,12 @@ public extension UIApplication {
     }
     
     func openUpdate(appId: String) {
-        self.open(URL(string: "http://itunes.apple.com/cn/app/id" + appId)!)
+        if #available(iOS 10.0, *) {
+            self.open(URL(string: "http://itunes.apple.com/cn/app/id" + appId)!)
+        } else {
+            // Fallback on earlier versions
+            self.openURL(URL(string: "http://itunes.apple.com/cn/app/id" + appId)!)
+        }
     }
 }
 

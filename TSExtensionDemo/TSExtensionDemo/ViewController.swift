@@ -1,21 +1,21 @@
 //
 //  ViewController.swift
-//  TSExtension
+//  TSExtensionDemo
 //
 //  Created by mc on 2017/12/29.
 //  Copyright © 2017年 张玉飞. All rights reserved.
 //
 
 import UIKit
+import TSExtension
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-    
-        let btn = UIButton()
-        btn.title = "1"
+        
+        UIButton().title = "1"
     }
 
     override func didReceiveMemoryWarning() {

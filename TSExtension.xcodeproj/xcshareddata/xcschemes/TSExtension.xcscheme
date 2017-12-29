@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "4C7651BE1FF60DF4005EF356"
+               BlueprintIdentifier = "4C7652171FF61996005EF356"
                BuildableName = "TSExtension.framework"
-               BlueprintName = "TSExtensionFramework"
+               BlueprintName = "TSExtension"
                ReferencedContainer = "container:TSExtension.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -47,9 +47,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4C7651BE1FF60DF4005EF356"
+            BlueprintIdentifier = "4C7652171FF61996005EF356"
             BuildableName = "TSExtension.framework"
-            BlueprintName = "TSExtensionFramework"
+            BlueprintName = "TSExtension"
             ReferencedContainer = "container:TSExtension.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -65,9 +65,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4C7651BE1FF60DF4005EF356"
+            BlueprintIdentifier = "4C7652171FF61996005EF356"
             BuildableName = "TSExtension.framework"
-            BlueprintName = "TSExtensionFramework"
+            BlueprintName = "TSExtension"
             ReferencedContainer = "container:TSExtension.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
