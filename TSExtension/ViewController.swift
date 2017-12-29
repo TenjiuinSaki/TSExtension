@@ -13,6 +13,9 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+    
+        let btn = UIButton()
+        btn.title = "1"
     }
 
     override func didReceiveMemoryWarning() {
